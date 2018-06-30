@@ -17,7 +17,7 @@ body {
 	background-image: url(../assets/images/hero.gif);
   background-repeat: no-repeat;
   background-size: 1278px;
-  background-position: 0% -90px;
+  background-position: 0% -86px;
 }
 
 header {
@@ -34,7 +34,7 @@ header {
   justify-content: flex-end;
   flex-direction: row;
   padding-right: 166px;
-  padding-bottom: 38px;
+  padding-bottom: 34px;
   font-size: 16px;
 }
 
@@ -42,12 +42,12 @@ header {
 	display: flex;
   justify-content: space-around;
   margin: 0;
-  padding-top: 12px;
+  padding-top: 13px;
 }
 
 #logo {
 	align-self: center;
-	padding-left: 61px;
+	padding-left: 60px;
   padding-bottom: 41px;
 }
 
@@ -58,11 +58,71 @@ header a {
 }
 
 #login {
-    border: 1px solid #FFFFFF;
-    border-radius: 9%;
-    padding: 9px 11px;
-    margin-right: -13px;
+	display: inline-block;
+  border: 1px solid #FFFFFF;
+  border-radius: 9%;
+  padding: 9px 11px;
+  margin-right: -11px;
+  margin-top: 8px;
+  margin-bottom: 20px;
  }
+
+section.drive-container {
+	display: flex;
+	justify-content: flex-end;
+	width: 1278px;
+}
+
+section#drive {
+	display: flex;
+ 	justify-content: flex-start;
+	text-align: start;
+	height: 379px;
+	width: 511px;
+	background-color: #FFFFFF;
+	padding-left: 49px;
+	padding-top: 24px;
+}
+
+.drive-form-text {
+  font-weight: 600;
+  color: #352384;
+}
+
+.drive-form-text h2 {
+	font-size: 34px;
+	margin-bottom: 0px;
+}
+
+.drive-form-text h3 {
+	margin-top: 0;
+  font-size: 20px;
+  padding-top: 17px;
+}
+
+.mb-0 {
+	margin-bottom: 0px;
+}
+
+.mt-0 {
+	margin-top: 0px;
+}
+
+.input-number {
+	border: hidden;
+	width: 415px;
+	font-family: 'Montserrat', sans-serif;
+	border-bottom: 1px solid #352384 !important;
+	padding-bottom: 6px;
+}
+
+.form-button {
+	margin-top: 25px;
+	padding: 10px 26px;
+	margin-left: 3px;
+	border-radius: 7px;
+	background-color: #FF00BE;
+}
 
 /*nav.header {
 	display: flex;
