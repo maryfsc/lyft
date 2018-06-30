@@ -85,6 +85,7 @@ section#drive {
 	background-color: #FFFFFF;
 	padding-left: 49px;
 	padding-top: 21px;
+	z-index: 1;
 }
 
 .phrase1 {
@@ -151,12 +152,115 @@ section#drive {
 .signup-button {
 	font-family: 'Montserrat', sans-serif;
  	font-size: 16px;
-	color: #352384;;
+	color: #352384;
 	text-decoration: underline;
 	margin-left: 17px;
 	border-style: none;
 	background-color: transparent;
 
+}
+
+.middle-container {
+	display: flex;
+  justify-content: center;
+}
+
+#middle {
+  display: flex;
+	justify-content: space-around;
+	background: linear-gradient(#76278F, #2B1E66);
+	height: 638px;
+	width: 1278px;
+}
+
+/*#middle-blur {
+ 	width: 869px;
+	height: 145px;
+	box-shadow: -56px -83px 78px -13px #76278F;
+	z-index: -1;
+}*/
+
+.middle-text-container {
+	display: flex;
+	justify-content: flex-start;
+	align-self: center;
+	height: 365px;
+	width: 427px;
+	color: #FFFFFF;
+}
+
+.middle-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 365px;
+	width: 427px;
+	padding-left: 39px;
+	padding-top: 16px;
+}
+
+.middle-text h2 {
+	text-decoration: bold;
+	font-size: 25px;
+	/*font-weight: 600;
+	margin-top: 0;
+	padding-top: 19px;*/
+}
+
+.middle-text p {
+	font-size: 14px;
+	margin: 0;
+}
+
+#ride {
+	padding-left: 27px;
+	padding-bottom: 52px;
+}
+
+.p-ride {
+
+}
+
+#safety {
+
+}
+
+.middle-img-container {
+	align-self: center;
+  padding-top: 46px;
+  padding-right: 68px;x
+}
+
+.video1-container {
+	display: flex;
+	justify-content: flex-end;
+	width: 1315px;
+}
+
+.video1-text {
+	padding-top: 5px;
+  width: 417px;
+  padding-left: 40px;
+}
+
+.video1 {
+	align-self: flex-end;
+}
+
+.subtitle {
+	font-size: 11px;
+  margin-bottom: 0;
+  padding-top: 26px;
+}
+
+.video1-text h2 {
+	margin: 0;
+	font-size: 27px;
+}
+
+.amp {
+	padding-top: 4px;
+  font-size: 16px;
 }
 
 /*nav.header {
