@@ -10,14 +10,17 @@
   box-sizing: border-box;
 }
 
-body {
+body, form {
 	font-family: 'Montserrat', sans-serif;
+}
+
+body {
 	height: 100%;
 	margin: 0 auto;
 	background-image: url(../assets/images/hero.gif);
   background-repeat: no-repeat;
   background-size: 1278px;
-  background-position: 0% -86px;
+  background-position: 37px -86px;
 }
 
 header {
@@ -33,7 +36,7 @@ header {
   align-items: center;
   justify-content: flex-end;
   flex-direction: row;
-  padding-right: 166px;
+  padding-right: 129px;
   padding-bottom: 34px;
   font-size: 16px;
 }
@@ -47,7 +50,7 @@ header {
 
 #logo {
 	align-self: center;
-	padding-left: 60px;
+	padding-left: 96px;
   padding-bottom: 41px;
 }
 
@@ -70,7 +73,7 @@ header a {
 section.drive-container {
 	display: flex;
 	justify-content: flex-end;
-	width: 1278px;
+	width: 1315px;
 }
 
 section#drive {
@@ -81,7 +84,23 @@ section#drive {
 	width: 511px;
 	background-color: #FFFFFF;
 	padding-left: 49px;
-	padding-top: 24px;
+	padding-top: 21px;
+}
+
+.phrase1 {
+	margin: 0px;
+ 	font-size: 11px;
+	padding-top: 28px;
+	padding-left: 2px;
+	color: #7086AD;
+}
+
+.phrase2 {
+  margin: 0px;
+	font-size: 11px;
+	padding-left: 2px;
+	padding-top: 12px;
+	color: #7086AD;
 }
 
 .drive-form-text {
@@ -97,7 +116,7 @@ section#drive {
 .drive-form-text h3 {
 	margin-top: 0;
   font-size: 20px;
-  padding-top: 17px;
+  padding-top: 21px;
 }
 
 .mb-0 {
@@ -112,16 +131,32 @@ section#drive {
 	border: hidden;
 	width: 415px;
 	font-family: 'Montserrat', sans-serif;
-	border-bottom: 1px solid #352384 !important;
-	padding-bottom: 6px;
+	font-size: 14px;
+	border-bottom: 1px solid #352384;
+	padding-bottom: 4px;
 }
 
-.form-button {
-	margin-top: 25px;
-	padding: 10px 26px;
+.driver-button {
+ 	margin-top: 19px;
+	padding: 11px 18px;
 	margin-left: 3px;
 	border-radius: 7px;
+	border-style: none;
 	background-color: #FF00BE;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+.signup-button {
+	font-family: 'Montserrat', sans-serif;
+ 	font-size: 16px;
+	color: #352384;;
+	text-decoration: underline;
+	margin-left: 17px;
+	border-style: none;
+	background-color: transparent;
+
 }
 
 /*nav.header {
