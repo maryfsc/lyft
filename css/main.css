@@ -1,3 +1,142 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+} 
+
+*:before, *:after {
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+	margin: 0 auto;
+	background-image: url(../assets/images/hero.gif);
+  background-repeat: no-repeat;
+  background-size: 1278px;
+  background-position: 0% -90px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: transparent;
+  height: 123px;
+  width: 1280px;
+}
+
+.menu {
+	display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+  padding-right: 166px;
+  padding-bottom: 38px;
+  font-size: 16px;
+}
+
+.navigation {
+	display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding-top: 12px;
+}
+
+#logo {
+	align-self: center;
+	padding-left: 61px;
+  padding-bottom: 41px;
+}
+
+header a {
+	text-decoration: none;
+  color: #FFFFFF;
+  margin: 12px;
+}
+
+#login {
+    border: 1px solid #FFFFFF;
+    border-radius: 9%;
+    padding: 9px 11px;
+    margin-right: -13px;
+ }
+
+/*nav.header {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	height: 119px;
+	width: 100%;
+	border: 2px solid black;
+	background-color: yellow;
+	color: #FFFFFF;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	background-image: url("../assets/images/hero.gif");
+	background-repeat: no-repeat;
+}
+nav a {
+	text-decoration: none;
+	color: green;
+}
+
+nav a:hover {
+	color: #FF00BF;
+}
+
+#blinking {
+	position: absolute;
+	top: -108px;
+	left: 0px;
+	z-index: -1;
+}
+
+#himage::before {
+	background-image: linear-gradient(transparent, #76278F);
+}
+
+#logo {
+	position: absolute;
+	left: 86px;
+	top: 34px;
+}
+
+.button {
+
+}
+
+.formu {
+	height: 424px;
+	width: 559px;
+	background-color: #FFFFFF;
+	position: relative;
+	z-index: 1;
+	left: 798px;
+	top: 110px;
+}
+
+.formu p {
+	margin: 60px;
+	font
+	font-size: 41px;
+	line-height: 40px;
+	top: 20px;
+}
+
+.middle {
+	height: 642px;
+	width: 1383px;
+	background: linear-gradient(#76278F, #2B1E66);
+	position: relative;
+	margin-left: 0px;
+	left: -10px;
+	top: 100px;
+	z-index: -1;
+}
+*/
