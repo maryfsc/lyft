@@ -164,7 +164,7 @@ section#drive {
 .middle-container {
   display: flex;
   justify-content: space-around;
-  width: 1315px;
+  width: 1278px;
   height: 640px;
   background: linear-gradient(#76278F, #2B1E66);
   margin-left: 37px;
@@ -197,42 +197,40 @@ section#drive {
   flex-direction: column;
   justify-content: center;
   height: 365px;
-  width: 427px;
-  padding-left: 39px;
-  padding-top: 16px;
+  width: 471px;
+  padding-left: 53px;
+  padding-bottom: 23px;
 }
 
 .middle-text h2 {
   text-decoration: bold;
   font-size: 25px;
-  /*font-weight: 600;
-  margin-top: 0;
-  padding-top: 19px;*/
+  margin-bottom: 0;
 }
 
 .middle-text p {
   font-size: 14px;
   margin: 0;
+  padding-top: 26px;
 }
 
-#ride {
-  padding-left: 27px;
-  padding-bottom: 52px;
+.ride {
+  padding-top: 2px;
 }
 
-.p-ride {
-
+.safety {
+  padding-top: 11px;
 }
 
-#safety {
+.happy {
 
 }
 
 .middle-img-container {
   align-self: center;
-  padding-top: 55px;
-  padding-right: 73px;
-  margin-left: -90px;
+  padding-top: 50px;
+  padding-right: 56px;
+  margin-left: -33px;
 }
 
 .video1-container {
