@@ -80,7 +80,7 @@ section#drive {
 	display: flex;
  	justify-content: flex-start;
 	text-align: start;
-	height: 379px;
+	height: 375px;
 	width: 511px;
 	background-color: #FFFFFF;
 	padding-left: 49px;
@@ -116,8 +116,9 @@ section#drive {
 
 .drive-form-text h3 {
 	margin-top: 0;
-  font-size: 20px;
+  font-size: 19px;
   padding-top: 21px;
+  padding-left: 4px;
 }
 
 .mb-0 {
@@ -169,7 +170,7 @@ section#drive {
   display: flex;
 	justify-content: space-around;
 	background: linear-gradient(#76278F, #2B1E66);
-	height: 638px;
+	height: 633px;
 	width: 1278px;
 }
 
@@ -254,7 +255,7 @@ section#drive {
   padding-top: 26px;
 }
 
-.video1-text h2 {
+.text-title {
 	margin: 0;
 	font-size: 27px;
 }
@@ -283,9 +284,7 @@ section#drive {
 }
 
 .video2-text h2 {
-  margin: 0px;
   padding-top: 2px;
-  font-size: 27px;
 }
 
 .june {
@@ -295,7 +294,29 @@ section#drive {
   padding-right: 85px;
 }
 
-.video2 {
+.video3-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 1315px;
+}
+
+.video3-text {
+  padding-top: 10px;
+  width: 417px;
+  padding-left: 40px;
+  padding-right: 10px;
+}
+
+.sb-3 {
+
+}
+
+/*.video3-container h2 {
+  margin: 0px;
+  font-size: 27px;
+}*/
+
+.despacito {
 
 }
 
