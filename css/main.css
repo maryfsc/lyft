@@ -307,18 +307,66 @@ section#drive {
   padding-right: 10px;
 }
 
-.sb-3 {
+#footer {
+  display: flex;
+  justify-content: center;
+  margin-left: 38px;
+  background-color: #333447;
+  height: 633px;
+  width: 1278px;
 
+}
+
+.footer-title {
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.footer-link {
+  display: flex;
+  text-decoration: none;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.footer-link:hover {
+  color: #FF00BF;
+}
+
+.menu-footer-container {
+  display: flex;
+  justify-content: space-between;
+  height: 190px;
+  width: 979px;
+  margin-top: 39px;
+}
+
+.column-2 {
+  padding-left: 16px;
+
+}
+
+.column-3 {
+  padding-left: 6px;
+}
+
+.column-4 {
+  margin: 50px;
+  padding-right: 47px;
+}
+
+.footer-img {
+  display: flex;
+  width: 120px;
+  height: 40px;
+  margin-bottom: 31px;
 }
 
 /*.video3-container h2 {
   margin: 0px;
   font-size: 27px;
 }*/
-
-.despacito {
-
-}
 
 /*nav.header {
 	display: flex;
